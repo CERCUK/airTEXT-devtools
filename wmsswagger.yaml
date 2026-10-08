@@ -1,11 +1,11 @@
 openapi: 3.0.3
 info:
-  title: GeoServer WMS Layer API
-  description: Interactive documentation for GeoServer Web Map Service (WMS) layers
+  title: airTEXT Web Mapping Service (WMS) API
+  description: Interactive documentation for airTEXT Web Map Service (WMS) layers
   version: 1.0.0
 servers:
   - url: https://api.airtext.info
-    description: Production GeoServer WMS Endpoint
+    description: airTEXT WMS Endpoint
 
 paths:
   /geoserver/london/wms:
