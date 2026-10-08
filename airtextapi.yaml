@@ -54,16 +54,7 @@ paths:
           pattern: ^\d{4}\-(0[1-9]|1[012])\-(0[1-9]|[12][0-9]|3[01])$
           description: |+
             ### The date (YYYY-MM-DD) of the first day of forecast. 
-            *- If this is omitted, the forecasts will start on the current date (plus the dateoffset, if supplied)*
-        - in: query
-          name: dateoffset
-          required: false
-          type: integer
-          enum: [ 0, 1, 2]
-          description: |+
-            ### The first day of the forecast will start <dateoffset> days after today. 
-            *- This is not used if "from" is supplied *
-            *- If this is omitted, the forecasts will start on the current date*
+            *- If this is omitted, the forecasts will start on the current date *
         - in: query
           name: numdays
           required: false
