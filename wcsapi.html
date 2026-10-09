@@ -180,7 +180,7 @@
         <div class="opblock-summary" onclick="toggleDetails(this)">
             <span class="opblock-method">GET</span>
             <span class="opblock-path">/geoserver/london/wcs</span>
-            <span class="opblock-summary-description">Downloads the coverage rendered as a visual PNG image or GeoTIFF grid.</span>
+            <span class="opblock-summary-description">Downloads the coverage as a GeoTIFF grid.</span>
         </div>
         <div class="opblock-body">
             <div class="desc-text">
@@ -280,17 +280,6 @@ curl -G "https://api.airtext.info/geoserver/london/wcs" \<br>
         </div>
     </div>
 </div>
-
-<script>
-    function toggleDetails(element) {
-        const body = element.nextElementSibling;
-        if (body.style.display === "none") {
-            body.style.display = "block";
-        } else {
-            body.style.display = "none";
-        }
-    }
-</script>
 
 </body>
 </html>
