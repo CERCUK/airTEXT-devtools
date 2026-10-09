@@ -8,6 +8,7 @@ Typical uses include:
 
 ### WCS URL 
 ``` https://api.airtext.info/geoserver/london/wcs ``` 
+[View API definition](./wcsapi.html){: .btn .btn-primary }
 
 ## Available Coverages
 
