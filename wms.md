@@ -10,7 +10,7 @@ Typical uses include:
 
 ## WMS URL
 
-https://api.airtext.info/geoserver/london/wms
+``` https://api.airtext.info/geoserver/london/wms ``` 
 
 [View API definition](./wmsapi.html){: .btn .btn-primary }
 
