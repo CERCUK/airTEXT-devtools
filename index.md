@@ -13,7 +13,7 @@ The following data access methods are available:
 
 | Service | Purpose | Suitable for |
 | ------- | ------- | ------------ |
-| [REST API](restapi.md) | Access numerical forecast data programmatically | Developers, integrations |
+| [REST API](forecast.md) | Access numerical forecast data programmatically | Developers, integrations |
 | [WMS](wms.md) | View map layers on desktop GIS or web | GIS users, mapping applications |
 | [WCS](wcs.md) | Download raster data | GIS users, analysts |
 
