@@ -33,7 +33,7 @@ curl -G "https://api.airtext.info/geoserver/london/wcs" \
     --data-urlencode "format=image/tiff" \
     --data-urlencode "subset=Long(-0.12,-0.11)" \
     --data-urlencode "subset=Lat(51.51,51.52)" \
-    --data-urlencode "subset=time(\"2026-10-09T00:00:00.000Z\")" \
+    --data-urlencode 'subset=time("2026-10-09T00:00:00.000Z")' \
     -o no2.tiff
 ```
 
