@@ -12,7 +12,7 @@ Typical uses include:
 
 ``` https://api.airtext.info/geoserver/london/wms ``` 
 
-[View API definition](./wmsapi.html){: .btn .btn-primary }
+[View API definition](./wms_api){: .btn .btn-primary }
 
 ## Available Layers
 
