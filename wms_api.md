@@ -1,4 +1,4 @@
-# GeoServer WMS Layer API
+# WMS API definition
 
 **Base URL:** `https://api.airtext.info`  
 
