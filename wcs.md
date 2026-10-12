@@ -10,7 +10,7 @@ Typical uses include:
 
 ``` https://api.airtext.info/geoserver/london/wcs ``` 
 
-[View API definition](./wcsapi.html){: .btn .btn-primary }
+[View API definition](./wcs_api){: .btn .btn-primary }
 
 ## Available Coverages
 
