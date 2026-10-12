@@ -52,7 +52,7 @@ const airtextWMS = L.tileLayer.wms('https://api.airtext.info/geoserver/london/wm
 }).addTo(map);
 ```
 
-[View full leaflet example](./leaflet.html){: .btn .btn-primary }
+[View full leaflet example](./wms_example.html){: .btn .btn-primary }
 
 
 ### Desktop GIS Software (QGIS)
