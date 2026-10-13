@@ -5,7 +5,7 @@ title: airTEXT Display Board
 
 # airTEXT Display Board
 
-This is a simple webpage that can be shown on screens or incorporated in a webpage, the base URL is [airtext-jcd-display.onrender.com](https://airtext-jcd-display.onrender.com/).
+This is a simple webpage that can be shown on screens or incorporated in a webpage, the base URL is [airtext-jcd-display.onrender.com](https://airtext-jcd-display.onrender.com/).  The page shows forecast pollution episodes in the specified zone.  If there are no episodes forecast, informative screens are shown instead.
 
 ## Zone
 
