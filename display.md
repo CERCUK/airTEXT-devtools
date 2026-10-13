@@ -16,7 +16,8 @@ e.g. <code>https://airtext-jcd-display.onrender.com/?zone=Southwark</code>
 ## Orientation
 
 The image can be shown in either landscape or portrait, set **orientation=<code>landscape/portrait</code>**
-**NOTE: Portrait shows the image rotated 90&deg; counter-clockwise.
+
+**NOTE: Portrait shows the image rotated 90&deg; counter-clockwise.**
 
 e.g. <code>https://airtext-jcd-display.onrender.com/?zone=Lambeth&orientation=landscape</code>
 
