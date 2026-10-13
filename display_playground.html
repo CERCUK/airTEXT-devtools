@@ -180,7 +180,7 @@
         </div>
 
         <!-- Interactive Preview Stage Container -->
-        <div class="bg-mist-800/60 border border-slate-800 ed-xl p-4 sm:p-6 min-h-[650px] flex flex-col items-center justify-center relative overflow-hidden">
+        <div id="prev" class="bg-mist-800/60 border border-slate-800 ed-xl p-4 sm:p-6 min-h-[650px] flex flex-col items-center justify-center relative overflow-hidden">
           
           <!-- Screen Toolbar Header -->
           <div class="w-full flex items-center justify-between mb-4 px-2 text-xs text-slate-400">
@@ -237,9 +237,9 @@
         customPanel.classList.add('hidden');
       }
 		console.log("Widths");
-		console.log(document.querySelector("main").offsetWidth);
-	  console.log(document.querySelector("main").getBoundingClientRect().width);
-      let w = Math.min(document.querySelector("main").offsetWidth, 640);
+		console.log(document.querySelector("prev").offsetWidth);
+	  console.log(document.querySelector("prev").getBoundingClientRect().width);
+      let w = Math.min(document.querySelector("prev").offsetWidth, 640);
       let h = 640;
       let label = '';
 		
