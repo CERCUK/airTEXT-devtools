@@ -236,30 +236,26 @@
       } else {
         customPanel.classList.add('hidden');
       }
-
-      let w = 360;
+      const element = document.querySelector('.viewport-stage');
+      let w = console.log(element.offsetWidth);
       let h = 640;
       let label = '';
-
+		
       switch(preset) {
         case '9:16':
-          w = 640;
-          h = 360;
+          h = w * (9 / 16) ;
           label = '9:16 Portrait (1080 x 1920)';
           break;
         case '2:3':
-          w = 540;
-          h = 360;
+          h = w * (2 / 3) ;
           label = '2:3 Portrait (576 x 864)';
           break;
         case '2:1':
-          w = 720;
-          h = 360;
+          h = w * (1 / 2) ;
           label = '2:1 Landscape (1440 x 720)';
           break;
 		case '1:1':
-          w = 360;
-          h = 360;
+          h = w;
           label = '1:1 Square (800 x 800)';
           break;
       }
