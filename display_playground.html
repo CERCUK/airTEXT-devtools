@@ -261,7 +261,7 @@
       }
 
       stage.style.width = `${w}px`;
-      stage.style.height = `${h}px`;
+      stage.style.height = `${Math.Round(h)}px`;
       infoBadge.textContent = label;
 updateIframeUrl();
     }
@@ -291,7 +291,7 @@ updateIframeUrl();
       const zone = document.getElementById('zone-select').value;
       const variant = document.getElementById('variant-select').value;
       const iframe = document.getElementById('display-iframe');
-      const urlDisplay = document.getElementById('current-url-display');
+
       var targetUrl="";
 const aspec = document.getElementById('aspect-preset-select').value;
 let w = "portrait";
@@ -328,9 +328,8 @@ const wVal = document.getElementById('custom-w').value;
 		  
       }
 
-
       iframe.src = targetUrl;
-      urlDisplay.textContent = targetUrl;
+
     }
 
     // Toggle Safe Zone Visual Overlay
