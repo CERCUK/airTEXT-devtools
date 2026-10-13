@@ -109,13 +109,17 @@
                 <i class="fa-solid fa-location-dot text-slate-400 mr-1"></i> Zone
               </label>
               <select id="zone-select" onchange="updateIframeUrl()" class="w-full bg-slate-950 border border-slate-700 text-slate-200 text-xs rounded-lg p-2.5 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none">
-                <optgroup label="--- Most Popular ---">
+                <optgroup label="---  ---">
         			<option value="Southwark">Southwark</option>
                 	<option value="Lambeth">Lambeth</option>
     			</optgroup>
 				<optgroup label="--- London boroughs ---">
+					<option value="Barking and Dagenham">Barking and Dagenham</option>
         			<option value="Barnet">Barnet</option>
                 	<option value="Bexley">Bexley</option>
+					<option value="Bromley">Bromley</option>
+					<option value="Southwark">Southwark</option>
+                	<option value="Lambeth">Lambeth</option>
     			</optgroup>
 				<optgroup label="--- Essex regions ---">
 					<option value="Chelmsford">Chelmsford</option>
@@ -124,7 +128,16 @@
     			</optgroup>
 			    <optgroup label="--- Surrey regions ---">
         			<option value="Elmbridge">Elmbridge</option>
+					<option value="Epsom and Ewell">Epsom and Ewell</option>
+					<option value="Guildford">Guildford</option>
+                	<option value="Mole Valley">Mole Valley</option>
+					<option value="Reigate and Banstead">Reigate and Banstead</option>
                 	<option value="Runnymede">Runnymede</option>
+					<option value="Spelthorne">Spelthorne</option>
+					<option value="Surrey Heath">Surrey Heath</option>
+                	<option value="Tandridge">Tandridge</option>
+					<option value="Waverley">Waverley</option>
+                	<option value="Woking">Woking</option>
     			</optgroup>
 				 
               </select>
@@ -136,13 +149,17 @@
                 <i class="fa-solid fa-cloud-sun text-slate-400 mr-1"></i> Pollution level
               </label>
               <select id="variant-select" onchange="updateIframeUrl()" class="w-full bg-slate-950 border border-slate-700 text-slate-200 text-xs rounded-lg p-2.5 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none">
-                <option value="" selected>Current</option>
-                <option value="moderatePollutionToday">Moderate today</option>
-                <option value="highPollutionToday">High today</option>
-				<option value="veryHighPollutionToday">Very high today</option>
-				<option value="moderatePollutionTomorrow">Moderate tomorrow</option>
-                <option value="highPollutionTomorrow">High tomorrow</option>
-				<option value="normal">Info</option>
+                <option value="" selected>Live</option>
+                <option value="moderatePollutionToday">Moderate pollution today</option>
+                <option value="highPollutionToday">High pollution today</option>
+				<option value="veryHighPollutionToday">Very high pollution today</option>
+				<option value="moderatePollutionTomorrow">Moderate pollution tomorrow</option>
+                <option value="highPollutionTomorrow">High pollution tomorrow</option>
+				<option value="moderatePollenToday">Moderate pollen today</option>
+                <option value="highPollenToday">High pollen today</option>
+				<option value="moderatePollenTomorrow">Moderate pollentomorrow</option>
+                <option value="highPollenTomorrow">High pollen tomorrow</option>
+				<option value="normal">Static screens</option>
               </select>
             </div>
 
