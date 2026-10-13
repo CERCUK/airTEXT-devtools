@@ -9,16 +9,16 @@ This is a simple webpage that can be shown on screens or incorporated in a webpa
 
 ## Zone
 
-Append **zone=<zone name>** to the query to show the pollution level
+Append **zone=<code>zone name</code>** to the query to show the pollution level
 
-e.g. <code>https://airtext-jcd-display.onrender.com/?**zone=Southwark**</code>
+e.g. <code>https://airtext-jcd-display.onrender.com/?zone=Southwark</code>
 
 ## Orientation
 
 The image can be shown in either landscape or portrait, set **orientation=<landscape/portrait>**
 **NOTE: Portrait shows the image rotated 90&deg; counter-clockwise.
 
-e.g. <code>https://airtext-jcd-display.onrender.com/?zone=Lambeth&**orientation=landscape**</code>
+e.g. <code>https://airtext-jcd-display.onrender.com/?zone=Lambeth&orientation=landscape</code>
 
 ## Testing 
 
