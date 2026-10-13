@@ -32,5 +32,6 @@ The [playground](display_playground.html) can be used to see the pages, includin
 ## Further development
 
 
-The code is open source, and can be found here [![GitHub Badge](https://img.shields.io/badge/GitHub-View%20Source-blue?logo=github)](https://github.com/CERCUK/airtext-jcd-display)
+The code is open source, and can be found here 
+[![GitHub Badge](https://img.shields.io/badge/GitHub-View%20Source-blue?logo=github)](https://github.com/CERCUK/airtext-jcd-display)
 
