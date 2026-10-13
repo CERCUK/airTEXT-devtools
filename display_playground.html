@@ -237,7 +237,7 @@
         customPanel.classList.add('hidden');
       }
       const element = document.querySelector('.viewport-stage');
-      let w = console.log(element.offsetWidth);
+      let w = Math.min(element.offsetWidth, 640);
       let h = 640;
       let label = '';
 		
