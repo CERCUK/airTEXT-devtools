@@ -3,43 +3,28 @@ layout: boardlayout
 title: airTEXT Display Board
 ---
 
-# airTEXT Display Board [![GitHub Badge](https://img.shields.io/badge/GitHub-View%20Source-blue?logo=github)](https://github.com/CERCUK/airtext-jcd-display)
+# airTEXT Display Board
 
-This is a simple display board that shows the airTEXT forecast for the next 24 hours. It is designed for a JCDecaux Roadside Digital 6-sheet display board (1080 x 1920), but can be used in any setting that supports HTML and JavaScript.
-
-[URL](https://airtext-jcd-display.onrender.com/)
-
-The [playground](display_playground.html) can be used to see the results
+This is a simple webpage that can be shown on screens or incorporated in a webpage, the base URL is [airtext-jcd-display.onrender.com](https://airtext-jcd-display.onrender.com/).
 
 ## Zone
 
-Append zone=<zone name> to the query to show the pollution level
+Append **zone=<zone name>** to the query to show the pollution level
 
-e.g. https://airtext-jcd-display.onrender.com/?zone=Southwark
+e.g. <code>https://airtext-jcd-display.onrender.com/?**zone=Southwark**</code>
 
 ## Orientation
 
-The image can be shown in either landscape or portrait, set the orientation=<landscape/portrait>
+The image can be shown in either landscape or portrait, set **orientation=<landscape/portrait>**
+**NOTE: Portrait shows the image rotated 90&deg; counter-clockwise.
 
-e.g. https://airtext-jcd-display.onrender.com/?zone=Lambeth&orientation=landscape
+e.g. <code>https://airtext-jcd-display.onrender.com/?zone=Lambeth&**orientation=landscape**</code>
 
 ## Testing 
 
-Append `dummy=[scenario]` to the URL to test the different scenarios. The following scenarios are available:
+The [playground](display_playground.html) can be used to see the pages, including pages showing how they would look if there were pollution episodes.
 
-- `normal` (i.e. low pollution and low pollen)
-- `veryHighPollutionToday`
-- `highPollutionToday`
-- `moderatePollutionToday`
-- `veryHighPollenToday`
-- `highPollenToday`
-- `moderatePollenToday`
-- `highPollutionTomorrow`
-- `moderatePollutionTomorrow`
+## Further development
 
-Append `?dummy=normal&info=[template]` to the URL to test the different info templates. The following templates are available:
-
-- `subscription-actionable`
-- `subscription-reflexive`
-- `educational`
+The code is open source, and can be found here [![GitHub Badge](https://img.shields.io/badge/GitHub-View%20Source-blue?logo=github)](https://github.com/CERCUK/airtext-jcd-display)
 
