@@ -55,14 +55,14 @@
       height: 8px;
     }
     ::-webkit-scrollbar-track {
-      background: #0f172a;
+      backg: #0f172a;
     }
     ::-webkit-scrollbar-thumb {
-      background: #334155;
+      backg: #334155;
       border-radius: 4px;
     }
     ::-webkit-scrollbar-thumb:hover {
-      background: #475569;
+      backg: #475569;
     }
 
 
@@ -85,7 +85,7 @@
 
         
         <!-- Controls Toolbar Card -->
-        <div class="bg-sky-800 border border-slate-800 rounded-xl p-4 sm:p-5 shadow-lg space-y-4">
+        <div class="bg-sky-800 border border-slate-800 ed-xl p-4 sm:p-5 shadow-lg space-y-4">
           <!-- Grid of Controls -->
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             
@@ -94,7 +94,7 @@
               <label class="block text-xs font-medium text-slate-300 mb-1.5">
                 <i class="fa-solid fa-expand text-slate-400 mr-1"></i> Screen Spec / Aspect Ratio
               </label>
-              <select id="aspect-preset-select" onchange="applyAspectPreset(this.value)" class="w-full bg-slate-950 border border-slate-700 text-slate-200 text-xs rounded-lg p-2.5 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none">
+              <select id="aspect-preset-select" onchange="applyAspectPreset(this.value)" class="w-full bg-slate-950 border border-slate-700 text-slate-200 text-xs ed-lg p-2.5 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none">
                 <option value="9:16" selected>9:16 Portrait (1080x1920)</option>
                 <option value="2:3">2:3 Portrait (576x864)</option>
                 <option value="2:1">2:1 Landscape (1440x720)</option>
@@ -108,7 +108,7 @@
               <label class="block text-xs font-medium text-slate-300 mb-1.5">
                 <i class="fa-solid fa-location-dot text-slate-400 mr-1"></i> Zone
               </label>
-              <select id="zone-select" onchange="updateIframeUrl()" class="w-full bg-slate-950 border border-slate-700 text-slate-200 text-xs rounded-lg p-2.5 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none">
+              <select id="zone-select" onchange="updateIframeUrl()" class="w-full bg-slate-950 border border-slate-700 text-slate-200 text-xs ed-lg p-2.5 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none">
                 <optgroup label="---  ---">
         			<option value="Southwark">Southwark</option>
                 	<option value="Lambeth">Lambeth</option>
@@ -148,7 +148,7 @@
               <label class="block text-xs font-medium text-slate-300 mb-1.5">
                 <i class="fa-solid fa-cloud-sun text-slate-400 mr-1"></i> Pollution level
               </label>
-              <select id="variant-select" onchange="updateIframeUrl()" class="w-full bg-slate-950 border border-slate-700 text-slate-200 text-xs rounded-lg p-2.5 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none">
+              <select id="variant-select" onchange="updateIframeUrl()" class="w-full bg-slate-950 border border-slate-700 text-slate-200 text-xs ed-lg p-2.5 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none">
                 <option value="" selected>Live</option>
                 <option value="moderatePollutionToday">Moderate pollution today</option>
                 <option value="highPollutionToday">High pollution today</option>
@@ -170,17 +170,17 @@
           <div id="custom-dim-panel" class="hidden pt-3 border-t border-slate-800/80 flex items-center gap-4 text-xs">
             <span class="text-slate-400 font-medium">Custom Screen Size:</span>
             <div class="flex items-center gap-2">
-              <input type="number" id="custom-w" value="1080" class="w-20 bg-slate-950 border border-slate-700 rounded px-2 py-1 text-slate-200 text-center font-mono">
+              <input type="number" id="custom-w" value="1080" class="w-20 bg-slate-950 border border-slate-700 ed px-2 py-1 text-slate-200 text-center font-mono">
               <span class="text-slate-500">×</span>
-              <input type="number" id="custom-h" value="1920" class="w-20 bg-slate-950 border border-slate-700 rounded px-2 py-1 text-slate-200 text-center font-mono">
+              <input type="number" id="custom-h" value="1920" class="w-20 bg-slate-950 border border-slate-700 ed px-2 py-1 text-slate-200 text-center font-mono">
               <span class="text-slate-500">px</span>
-              <button onclick="applyCustomDimensions()" class="bg-brand-500 hover:bg-brand-600 text-white px-3 py-1 rounded text-xs transition-colors">Apply</button>
+              <button onclick="applyCustomDimensions()" class="bg-brand-500 hover:bg-brand-600 text-white px-3 py-1 ed text-xs transition-colors">Apply</button>
             </div>
           </div>
         </div>
 
         <!-- Interactive Preview Stage Container -->
-        <div class="bg-mist-800/60 border border-slate-800 rounded-xl p-4 sm:p-6 min-h-[650px] flex flex-col items-center justify-center relative overflow-hidden">
+        <div class="bg-mist-800/60 border border-slate-800 ed-xl p-4 sm:p-6 min-h-[650px] flex flex-col items-center justify-center relative overflow-hidden">
           
           <!-- Screen Toolbar Header -->
           <div class="w-full flex items-center justify-between mb-4 px-2 text-xs text-slate-400">
@@ -263,7 +263,7 @@
       }
 
       stage.style.width = `${w}px`;
-      stage.style.height = `${Math.Round(h)}px`;
+      stage.style.height = `${Math.round(h)}px`;
       infoBadge.textContent = label;
 updateIframeUrl();
     }
