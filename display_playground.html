@@ -95,7 +95,7 @@
                 <i class="fa-solid fa-expand text-slate-400 mr-1"></i> Screen Spec / Aspect Ratio
               </label>
               <select id="aspect-preset-select" onchange="applyAspectPreset(this.value)" class="w-full bg-slate-950 border border-slate-700 text-slate-200 text-xs ed-lg p-2.5 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none">
-                <option value="2:1" selected>2:1 Landscape (1440x720)</option>
+                <option value="16:9" selected>16:9 Landscape (1920x1080)</option>
 				<option value="1:1">1:1 Square (800x800)</option>
 				<option value="9:16">9:16 Portrait (1080x1920)</option>
                 <option value="2:3">2:3 Portrait (576x864)</option>
@@ -187,7 +187,7 @@
               <span class="w-2.5 h-2.5 rounded-full bg-red-500"></span>
               <span class="w-2.5 h-2.5 rounded-full bg-yellow-500"></span>
               <span class="w-2.5 h-2.5 rounded-full bg-green-500"></span>
-              <span class="ml-2 font-mono text-slate-300" id="screen-info-badge">2:1 Landscape (1440x720)</span>
+              <span class="ml-2 font-mono text-slate-300" id="screen-info-badge">16:9 Landscape (1920x1080)</span>
             </div>
 
           </div>
@@ -247,9 +247,9 @@
           h = w * (2 / 3) ;
           label = '2:3 Portrait (576 x 864)';
           break;
-        case '2:1':
-          h = w * (1 / 2) ;
-          label = '2:1 Landscape (1440 x 720)';
+        case '16:9':
+          h = w * (9 / 16) ;
+          label = '16:9 Landscape (1920 x 1080)';
           break;
 		case '1:1':
           h = w;
@@ -295,7 +295,7 @@ let w = "portrait";
 
 
       switch(aspec) {
-        case '2:1':
+        case '16:9':
           w = "landscape";
           break;
 		case '1:1':
