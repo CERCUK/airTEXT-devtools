@@ -31,7 +31,7 @@ Use the <code>zone</code> query parameter to select the geographical zone for wh
 
 ### Available values
 
-<code>Central London, North London, South London, East London, West London, Barnet, Bexley, Brent, Camden, Chelmsford, City of London, Colchester, Croydon, Ealing, Elmbridge, Enfield, Epsom and Ewell, Greenwich, Guildford, Hackney, Hammersmith and Fulham, Haringey, Harrow, Havering, Hillingdon, Hounslow, Islington, Kensington and Chelsea, Kingston upon Thames, Lambeth, Lewisham, Maldon, Merton, Mole Valley, Newham, Redbridge, Reigate and Banstead, Richmond upon Thames, Runnymede, Southwark, Spelthorne, Surrey Heath, Sutton, Tandridge, Tower Hamlets, Waltham Forest, Wandsworth, Waverley, Westminster, Woking<code>
+<code>Central London, North London, South London, East London, West London, Barnet, Bexley, Brent, Camden, Chelmsford, City of London, Colchester, Croydon, Ealing, Elmbridge, Enfield, Epsom and Ewell, Greenwich, Guildford, Hackney, Hammersmith and Fulham, Haringey, Harrow, Havering, Hillingdon, Hounslow, Islington, Kensington and Chelsea, Kingston upon Thames, Lambeth, Lewisham, Maldon, Merton, Mole Valley, Newham, Redbridge, Reigate and Banstead, Richmond upon Thames, Runnymede, Southwark, Spelthorne, Surrey Heath, Sutton, Tandridge, Tower Hamlets, Waltham Forest, Wandsworth, Waverley, Westminster, Woking</code>
 
 ## Orientation
 
@@ -43,7 +43,7 @@ Use the orientation query parameter to specify the display orientation.  If this
 
 ### Available values
 
-<code>portrait, landscape<code>
+<code>portrait, landscape</code>
 
 **NOTE:** Portrait shows the image rotated 90&deg; counter-clockwise.
 
