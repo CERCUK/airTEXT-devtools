@@ -9,6 +9,8 @@ title: airTEXT Display Board
 
 The Air Quality Forecast service can be integrated with compatible digital signage systems to display timely, locally relevant public health information in GP surgeries, pharmacies, hospitals, community centres and other public spaces.
 
+![signage](assets/img/surgery.png)
+
 The service provides a URL for a selected geographical zone. Based on the forecast conditions for the next two days, the URL automatically displays the most appropriate information screen.
 
 Where moderate or higher air pollution or pollen levels are predicted, the service displays a screen relevant to the forecast level, including guidance on appropriate actions and precautions.
