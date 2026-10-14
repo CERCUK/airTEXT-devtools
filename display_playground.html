@@ -95,10 +95,12 @@
                 <i class="fa-solid fa-expand text-slate-400 mr-1"></i> Screen Spec / Aspect Ratio
               </label>
               <select id="aspect-preset-select" onchange="applyAspectPreset(this.value)" class="w-full bg-slate-950 border border-slate-700 text-slate-200 text-xs ed-lg p-2.5 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none">
-                <option value="16:9" selected>16:9 Landscape (1920x1080)</option>
-				<option value="1:1">1:1 Square (800x800)</option>
-				<option value="9:16">9:16 Portrait (1080x1920)</option>
-                <option value="2:3">2:3 Portrait (576x864)</option>
+                <option value="16:9" selected>16:9 (1920 x 1080)</option>
+				<option value="2:3" selected>2:3 (576 x 864)</option>
+				<option value="9:16" selected>9:16 (1080 x 1920)</option>
+				<option value="1:1">1:1 (800 x 800)</option>
+				<option value="9:16r">9:16 rotated (1080 x 1920)</option>
+                <option value="2:3r">2:3 rotated (576 x 864)</option>
                 <option value="custom">Custom Dimensions...</option>
               </select>
             </div>
@@ -173,6 +175,11 @@
               <span class="text-slate-500">×</span>
               <input type="number" id="custom-h" value="1920" class="w-20 bg-slate-950 border border-slate-700 ed px-2 py-1 text-slate-200 text-center font-mono">
               <span class="text-slate-500">px</span>
+				<label class="flex items-center gap-2 ml-2 text-slate-300 cursor-pointer whitespace-nowrap">
+      <input type="checkbox" id="custom-rotate"
+        class="accent-brand-500">
+      Rotate 90° counter-clockwise
+    </label>
               <button onclick="applyCustomDimensions()" class="bg-brand-500 hover:bg-brand-600 text-white px-3 py-1 ed text-xs transition-colors">Apply</button>
             </div>
           </div>
@@ -239,21 +246,29 @@
       let label = '';
 		
       switch(preset) {
-        case '9:16':
+        case '9:16r':
           h = w * (9 / 16) ;
-          label = '9:16 Portrait (1080 x 1920)';
+          label = '9:16 rotated (1080 x 1920)';
           break;
-        case '2:3':
+        case '2:3r':
           h = w * (2 / 3) ;
-          label = '2:3 Portrait (576 x 864)';
+          label = '2:3 rotated (576 x 864)';
           break;
         case '16:9':
           h = w * (9 / 16) ;
-          label = '16:9 Landscape (1920 x 1080)';
+          label = '16:9 (1920 x 1080)';
+          break;
+		case '9:16':
+          h = w * (16 / 9) ;
+          label = '9:16 (1080 x 1920)';
+          break;
+		case '2:3':
+          h = w * (3 / 2) ;
+          label = '2:3 (576 x 864)';
           break;
 		case '1:1':
           h = w;
-          label = '1:1 Square (800 x 800)';
+          label = '1:1 (800 x 800)';
           break;
       }
 
@@ -291,21 +306,20 @@ updateIframeUrl();
 
       var targetUrl="";
 const aspec = document.getElementById('aspect-preset-select').value;
-let w = "portrait";
+let w = "landscape";
 
 
       switch(aspec) {
-        case '16:9':
-          w = "landscape";
+        case '9:16r':
+          w = "portrait";
           break;
-		case '1:1':
-          w = "landscape";
+		case '2:3r':
+          w = "portrait";
           break;
 	case 'custom':
-const wVal = document.getElementById('custom-w').value;
-      const hVal = document.getElementById('custom-h').value;
-	  if (wVal > hVal) {
-	    w = "landscape";
+		const rotated = document.getElementById("custom-rotate").checked;
+		if (rotated) {
+	    w = "portrait";
 	  }
       }
 
