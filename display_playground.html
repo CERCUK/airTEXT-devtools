@@ -95,10 +95,10 @@
                 <i class="fa-solid fa-expand text-slate-400 mr-1"></i> Screen Spec / Aspect Ratio
               </label>
               <select id="aspect-preset-select" onchange="applyAspectPreset(this.value)" class="w-full bg-slate-950 border border-slate-700 text-slate-200 text-xs ed-lg p-2.5 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none">
-                <option value="9:16" selected>9:16 Portrait (1080x1920)</option>
-                <option value="2:3">2:3 Portrait (576x864)</option>
-                <option value="2:1">2:1 Landscape (1440x720)</option>
+                <option value="2:1" selected>2:1 Landscape (1440x720)</option>
 				<option value="1:1">1:1 Square (800x800)</option>
+				<option value="9:16">9:16 Portrait (1080x1920)</option>
+                <option value="2:3">2:3 Portrait (576x864)</option>
                 <option value="custom">Custom Dimensions...</option>
               </select>
             </div>
@@ -194,24 +194,19 @@
 
           <!-- CANVAS / IFRAME WRAPPER -->
           <div id="viewport-stage" class="viewport-container relative bg-black shadow-2xl rounded-lg border-2 border-slate-700 overflow-hidden" 
-               style="width: 640px; height: 360px;">
+               style="width: 640px; height: 320px;">
             
 
             <!-- Embedded Live Display Frame -->
             <iframe id="display-iframe" 
-                    src="https://airtext-jcd-display.onrender.com/?zone=Southwark&orientation=portrait" 
+                    src="https://airtext-jcd-display.onrender.com/?zone=Southwark&orientation=landscape" 
                     class="w-full h-full border-0 bg-slate-900" 
                     title="JCDecaux Live Screen Preview"
                     allowfullscreen>
             </iframe>
           </div>
 
-
         </div>
-
-      
-
-
 
     </div>
   </main>
@@ -221,8 +216,10 @@
     // State management
     let isZoomedFit = false;
 
-    
-
+	let w3 = Math.min(document.getElementById("prev").offsetWidth, 640);
+    document.getElementById('viewport-stage').style.width = `${w3}px`;
+	document.getElementById('viewport-stage').style.height = `${Math.round(w3 * (1 / 2))}px`;
+	  
     // Apply Aspect Ratio Presets
     function applyAspectPreset(preset) {
       const stage = document.getElementById('viewport-stage');
