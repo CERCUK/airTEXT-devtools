@@ -11,11 +11,6 @@ The Air Quality Forecast service can be integrated with compatible digital signa
 
 <img src="/assets/img/surgery.png" alt="Sample Image" style="width:100%; height:auto;">
 
-<img src="/assets/img/surgery.png" alt="Sample Image" style="width:50%; height:auto;">
-
-
-![signage](assets/img/surgery.png)
-
 The service provides a URL for a selected geographical zone. Based on the forecast conditions for the next two days, the URL automatically displays the most appropriate information screen.
 
 Where moderate or higher air pollution or pollen levels are predicted, the service displays a screen relevant to the forecast level, including guidance on appropriate actions and precautions.
