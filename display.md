@@ -17,11 +17,13 @@ Where all forecast levels remain low, a general information screen is displayed 
 
 This allows screens to present relevant, actionable health information when it is needed, without requiring staff to monitor forecasts or manually change the displayed content.
 
+## URL
+
 **Base URL:** [airtext-jcd-display.onrender.com](https://airtext-jcd-display.onrender.com/)
 
 The display is configured using URL query parameters, allowing the geographical zone and screen orientation to be specified.
 
-## Zone
+### Zone
 
 Use the <code>zone</code> query parameter to select the geographical zone for which the forecast infromation should be displayed
 
@@ -33,7 +35,7 @@ Use the <code>zone</code> query parameter to select the geographical zone for wh
 
 <code>Central London, North London, South London, East London, West London, Barnet, Bexley, Brent, Camden, Chelmsford, City of London, Colchester, Croydon, Ealing, Elmbridge, Enfield, Epsom and Ewell, Greenwich, Guildford, Hackney, Hammersmith and Fulham, Haringey, Harrow, Havering, Hillingdon, Hounslow, Islington, Kensington and Chelsea, Kingston upon Thames, Lambeth, Lewisham, Maldon, Merton, Mole Valley, Newham, Redbridge, Reigate and Banstead, Richmond upon Thames, Runnymede, Southwark, Spelthorne, Surrey Heath, Sutton, Tandridge, Tower Hamlets, Waltham Forest, Wandsworth, Waverley, Westminster, Woking</code>
 
-## Orientation
+### Orientation
 
 Use the orientation query parameter to specify the display orientation.  If this omitted it will show in landscape.
 
