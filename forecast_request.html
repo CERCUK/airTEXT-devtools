@@ -1,0 +1,56 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>airTEXT Forecast API Key Request</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <!-- Leaflet CSS & JS via CDN -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, sans-serif;
+    }
+    #map {
+      width: 80%;
+      height: 400px;
+      margin: 25px auto;
+    }
+    pre {
+      width: 80%;
+      height: 400px;
+      margin: 10px auto;
+      background-color: #1e293b;
+      color: #f8fafc;
+      padding: 1rem;
+      border-radius: 8px;
+      overflow-x: auto; /* Handles horizontal scrolling for long lines */
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body style="margin: 0; padding: 0; background-color: #f4f7fb;">
+
+  <!-- Include airTEXT Header Component -->
+  {% include header.html %}
+<main class="main-content">
+<h1>airTEXT Forecast API Key Request Form</h1>
+
+  <p></br>To access the Forecast API, you will require an API key.  Please enter details, including a brief description of how you plan to use the data.</p>
+  
+  <form action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="f86c9b98-02e3-4b85-b2ec-8192e8157454">
+  <input type="text" name="name" required>
+  <input type="email" name="email" required>
+  <textarea name="description of use" required></textarea>
+  <button type="submit">Submit</button>
+</form></body>
+</html>
