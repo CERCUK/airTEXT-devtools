@@ -37,14 +37,18 @@ Typical uses include:
 	]
 } 
 ```
+---
+## Requesting an API key
+You can request an API key here:
 
+[Request API key](forecast_request.html){: .btn .btn-primary }
 --- 
-# Using Swagger 
+## Using Swagger 
 Swagger provides an interactive interface for exploring and testing the API. 
 
 [View API definition](forecast_api.html){: .btn .btn-primary }
 
-## Trying an Endpoint 
+### Trying an Endpoint 
 1. Click **Authorize**. 
 2. Enter your API key.
 3. Select the getForecast endpoint. 
