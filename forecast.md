@@ -42,6 +42,7 @@ Typical uses include:
 You can request an API key here:
 
 [Request API key](forecast_request.html){: .btn .btn-primary }
+
 --- 
 ## Using Swagger 
 Swagger provides an interactive interface for exploring and testing the API. 
