@@ -47,10 +47,15 @@
   <p></br>To access the Forecast API, you will require an API key.  Please enter details, including a brief description of how you plan to use the data.</p>
   
   <form action="https://api.web3forms.com/submit" method="POST">
-  <input type="hidden" name="access_key" value="f86c9b98-02e3-4b85-b2ec-8192e8157454">
-  <input type="text" name="name" required>
-  <input type="email" name="email" required>
-  <textarea name="description of use" required></textarea>
-  <button type="submit">Submit</button>
-</form></body>
+    <input type="hidden" name="access_key" value="f86c9b98-02e3-4b85-b2ec-8192e8157454">
+    <input type="hidden" name="subject" value="New Forecast API Key Request from docs.airtext.info form">
+    <input type="hidden" name="redirect" value="https://docs.airtext.info/thankyou.html">
+    <label for="name">Name:</label><br>
+    <input type="text" name="name" required>
+    <label for="email">Email Address:</label><br>
+    <input type="email" name="email" required>
+    <label for="useCase">Intended Use Case / Project Description:</label><br>
+    <textarea name="useCase" required></textarea>
+    <button type="submit">Request API Key</button>
+  </form></main></body>
 </html>
