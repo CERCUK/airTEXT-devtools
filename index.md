@@ -15,7 +15,7 @@ For councils, businesses and other organisations wishing to access airTEXT data.
 
 Find guidance on connecting to airTEXT web services and incorporating air quality forecast information into your own applications and services.
 
-[**View the Data Access Guide →**](forecast)
+[**View the Data Access Guide →**](dataaccess)
 
 ---
 
