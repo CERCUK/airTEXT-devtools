@@ -96,8 +96,8 @@
               </label>
               <select id="aspect-preset-select" onchange="applyAspectPreset(this.value)" class="w-full bg-mist-950 border border-slate-700 text-blue-800 text-xs ed-lg p-2.5 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none">
                 <option value="16:9" selected>16:9 (1920 x 1080)</option>
-				<option value="2:3" selected>2:3 (576 x 864)</option>
-				<option value="9:16" selected>9:16 (1080 x 1920)</option>
+				<option value="2:3">2:3 (576 x 864)</option>
+				<option value="9:16">9:16 (1080 x 1920)</option>
 				<option value="1:1">1:1 (800 x 800)</option>
 				<option value="9:16r">9:16 rotated (1080 x 1920)</option>
                 <option value="2:3r">2:3 rotated (576 x 864)</option>
@@ -112,7 +112,7 @@
               </label>
               <select id="zone-select" onchange="updateIframeUrl()" class="w-full bg-mist-950 border border-slate-700 text-blue-800 text-xs ed-lg p-2.5 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none">
                 <optgroup label="---  ---">
-        			<option value="Southwark">Southwark</option>
+        			<option value="Southwark" selected>Southwark</option>
                 	<option value="Lambeth">Lambeth</option>
     			</optgroup>
 				<optgroup label="--- London boroughs ---">
@@ -194,7 +194,7 @@
               <span class="w-2.5 h-2.5 rounded-full bg-red-500"></span>
               <span class="w-2.5 h-2.5 rounded-full bg-yellow-500"></span>
               <span class="w-2.5 h-2.5 rounded-full bg-green-500"></span>
-              <span class="ml-2 font-mono text-slate-300" id="screen-info-badge">16:9 Landscape (1920x1080)</span>
+              <span class="ml-2 font-mono text-slate-300" id="screen-info-badge">16:9 (1920 x 1080)</span>
             </div>
 
           </div>
