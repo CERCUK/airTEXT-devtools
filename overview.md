@@ -4,12 +4,9 @@ Guidance and materials for organisations working with airTEXT. Whether you want 
 
 ---
 
-## Data Access Guide
+## <img src="/favicon.ico" alt="" width="28"  height="28"> Data Access Guide
 
-<img src="/favicon.ico"
-     alt=""
-     width="28"
-     height="28">
+
 
 For councils, businesses and other organisations wishing to access airTEXT data.
 
