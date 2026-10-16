@@ -39,7 +39,7 @@ Learn how to display forecast information for patients and visitors.
 
 ---
 
-## <a href="https://airtext.info/" aria-label="View the main airTEXT website"><img src="/favicon_blue.ico" alt="" width="28"  height="28"></a>  About airTEXT
+## <a href="https://airtext.info/" aria-label="View the main airTEXT website"><img src="/favicon_blue.ico" alt="" width="28"  height="28"> About airTEXT</a>
 
 airTEXT provides air quality information and alerts to help people understand and respond to local air pollution.
 
