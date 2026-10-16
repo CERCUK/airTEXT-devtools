@@ -35,7 +35,9 @@ Use the <code>zone</code> query parameter to select the geographical zone for wh
 
 #### Available values:
 
-<code>Central London, North London, South London, East London, West London, Barnet, Bexley, Brent, Camden, Chelmsford, City of London, Colchester, Croydon, Ealing, Elmbridge, Enfield, Epsom and Ewell, Greenwich, Guildford, Hackney, Hammersmith and Fulham, Haringey, Harrow, Havering, Hillingdon, Hounslow, Islington, Kensington and Chelsea, Kingston upon Thames, Lambeth, Lewisham, Maldon, Merton, Mole Valley, Newham, Redbridge, Reigate and Banstead, Richmond upon Thames, Runnymede, Southwark, Spelthorne, Surrey Heath, Sutton, Tandridge, Tower Hamlets, Waltham Forest, Wandsworth, Waverley, Westminster, Woking</code>
+<code>Central%20London, North%20London, South%20London, East%20London, West%20London, Barnet, Bexley, Brent, Camden, Chelmsford, City%20of%20London, Colchester, Croydon, Ealing, Elmbridge, Enfield, Epsom%20and%20Ewell, Greenwich, Guildford, Hackney, Hammersmith%20and%20Fulham, Haringey, Harrow, Havering, Hillingdon, Hounslow, Islington, Kensington%20and%20Chelsea, Kingston%20upon%20Thames, Lambeth, Lewisham, Maldon, Merton, Mole%20Valley, Newham, Redbridge, Reigate%20and%20Banstead, Richmond%20upon%20Thames, Runnymede, Southwark, Spelthorne, Surrey%20Heath, Sutton, Tandridge, Tower%20Hamlets, Waltham%20Forest, Wandsworth, Waverley, Westminster, Woking</code>
+
+**NOTE:** Any spaces in a zone name will need to be escaped, i.e. %20
 
 ### Orientation (optional)
 
