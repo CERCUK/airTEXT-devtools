@@ -4,9 +4,7 @@ Guidance and materials for organisations working with airTEXT. Whether you want 
 
 ---
 
-## <img src="/favicon.ico" alt="" width="28"  height="28"> Data Access Guide
-
-
+## <img src="/favicon.ico" alt="" width="28"  height="28"> Data Access Portal
 
 For councils, businesses and other organisations wishing to access airTEXT data.
 
@@ -16,7 +14,7 @@ Find guidance on connecting to airTEXT web services and incorporating air qualit
 
 ---
 
-## Promotional Materials  <i class="fa-solid fa-bullhorn" aria-hidden="true"></i>
+## <img src="/favicon_green.ico" alt="" width="28"  height="28">  Promotional Materials  
 
 Resources to help councils, partner organisations and others raise awareness of airTEXT and promote the service to their communities.
 
@@ -26,7 +24,7 @@ Browse materials for use in communications, publications and other outreach acti
 
 ---
 
-## 🖥️ Display Board Guide
+## <img src="/favicon_yellow.ico" alt="" width="28"  height="28"> Display Board Guide
 
 Guidance for GP surgeries and other  settings wishing to display airTEXT forecasts on digital signage.
 
