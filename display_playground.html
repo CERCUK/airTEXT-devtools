@@ -190,7 +190,9 @@
 				<option value="moderatePollenToday">Moderate pollen today</option>
                 <option value="highPollenToday">High pollen today</option>
 				<option value="veryHighPollenToday">Very high pollen today</option>
-				<option value="normal">Static screens (shows 1 of 3 options)</option>
+				<option value="normal:subscription-actionable">Static screens (actionable)</option>
+				<option value="normal:subscription-reflexive">Static screens (reflexive)</option>
+				<option value="normal:educational">Static screens (educational)</option>
               </select>
             </div>
 
@@ -356,10 +358,10 @@ let w = "landscape";
 
       const baseUrl = 'https://airtext-jcd-display.onrender.com/';
       if (variant) {
-		  if (variant == "normal") {
-			  const items = ["educational", "subscription-reflexive", "subscription-actionable"];
-			  const randomItem = items[Math.floor(Math.random() * items.length)];
-			  targetUrl = `${baseUrl}?zone=${encodeURIComponent(zone)}&orientation=${encodeURIComponent(w)}&dummy=normal&info=${randomItem}`;
+		  if (variant.startsWith("normal")) {
+              const selectednormal = variant.split(":")[1];
+			  
+			  targetUrl = `${baseUrl}?zone=${encodeURIComponent(zone)}&orientation=${encodeURIComponent(w)}&dummy=normal&info=${selectednormal}`;
 		  } else {
 			targetUrl = `${baseUrl}?zone=${encodeURIComponent(zone)}&orientation=${encodeURIComponent(w)}&dummy=${encodeURIComponent(variant)}`;
 		  }
