@@ -1,4 +1,4 @@
-# Welcome to the Data Access Guide
+# Welcome to the Guide for Developers
 
 ## Introduction 
 This guide provides the information needed to quickly connect to the available airTEXT data services. It is intended for developers, GIS users and system integrators who are familiar with web services. 
