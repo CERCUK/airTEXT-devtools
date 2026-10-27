@@ -9,13 +9,13 @@ Guidance and materials for organisations working with airTEXT. Whether you want 
 
 ---
 
-## <a href="dataaccess" aria-label="View the Data Access Guide"><img src="/favicon.ico" alt="" width="28"  height="28"> Data Access Portal</a> 
+## <a href="dataaccess" aria-label="View the Data Access Guide"><img src="/favicon.ico" alt="" width="28"  height="28"> Guide for Developers</a> 
 
 For councils, businesses and other organisations wishing to access airTEXT data.
 
 Find guidance on connecting to airTEXT web services and incorporating air quality forecast information into your own applications and services.
 
-[**View the Data Access Guide →**](dataaccess)
+[**View the Guide for Developers →**](dataaccess)
 
 ---
 
@@ -29,13 +29,13 @@ Browse materials for use in communications, publications and other outreach acti
 
 ---
 
-## <a href="display" aria-label="View the Display Board Guide"><img src="/favicon_yellow.ico" alt="" width="28"  height="28"> Display Board Guide</a> 
+## <a href="display" aria-label="View the Display Board Guide"><img src="/favicon_yellow.ico" alt="" width="28"  height="28"> Digital Signage</a> 
 
 Guidance for GP surgeries and other  settings wishing to display airTEXT forecasts on digital signage.
 
 Learn how to display forecast information for patients and visitors.
 
-[**View the Display Board Guide →**](display)
+[**View Digital Signage →**](display)
 
 ---
 
