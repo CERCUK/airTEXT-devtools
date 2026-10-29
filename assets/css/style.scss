@@ -179,6 +179,9 @@ a {
 .terms-and-conditions {
   grid-column: 2;
   grid-row: 2;
+  justify-self: end;
+  padding-right: 40px;
+  text-align: end;
 }
 
 /* Mobile layout */
@@ -186,9 +189,7 @@ a {
   .footer-content {
     grid-template-columns: 1fr;
     gap: 1.5rem;
-    justify-self: end;
-    padding-right: 40px;
-    text-align: end;
+    
   }
 
   .footer-content nav,
