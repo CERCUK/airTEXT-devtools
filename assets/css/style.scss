@@ -119,9 +119,76 @@ a {
   color: $airtext-navy !important;
 }
 
-.footer_content a {
+.site-footer {
+  background-color: #104b8e;
   color: white;
-  
+  padding: 2rem;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+/* Left column: navigation */
+.footer-content nav {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+}
+
+.footer-content nav ul,
+.terms-and-conditions {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-content nav li,
+.terms-and-conditions li {
+  margin-bottom: 0.75rem;
+}
+
+.site-footer a {
+  color: white;
+  text-decoration: underline;
+}
+
+/* Right column: logo at the top */
+.site-logo {
+  grid-column: 2;
+  grid-row: 1;
+  justify-self: start;
+  margin-bottom: 1rem;
+}
+
+.site-logo svg {
+  display: block;
+  width: 189px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Right column: terms underneath the logo */
+.terms-and-conditions {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+/* Mobile layout */
+@media (max-width: 600px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .footer-content nav,
+  .site-logo,
+  .terms-and-conditions {
+    grid-column: 1;
+    grid-row: auto;
+  }
 }
 
 /* Data Tables */
