@@ -120,7 +120,7 @@ a {
 }
 
 .site-footer {
-  background-color: #104b8e;
+  background-color: $airtext-navy;
   color: white;
   padding: 2rem;
 }
@@ -150,16 +150,19 @@ a {
   margin-bottom: 0.75rem;
 }
 
+.site-footer a:active {
+  text-decoration: underline;
+}
+
 .site-footer a {
   color: white;
-  text-decoration: underline;
 }
 
 /* Right column: logo at the top */
 .site-logo {
   grid-column: 2;
   grid-row: 1;
-  justify-self: start;
+  justify-self: end;
   margin-bottom: 1rem;
 }
 
@@ -188,6 +191,7 @@ a {
   .terms-and-conditions {
     grid-column: 1;
     grid-row: auto;
+    align-self: end;
   }
 }
 
