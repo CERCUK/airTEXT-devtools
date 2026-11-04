@@ -21,7 +21,7 @@ This allows screens to present relevant, actionable health information when it i
 
 ## URL
 
-### [airtext-jcd-display.onrender.com](https://airtext-jcd-display.onrender.com/)
+#### [airtext-jcd-display.onrender.com](https://airtext-jcd-display.onrender.com/)
 
 The display is configured using URL query parameters, allowing the geographical zone and screen orientation to be specified.
 
