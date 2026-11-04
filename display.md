@@ -21,7 +21,7 @@ This allows screens to present relevant, actionable health information when it i
 
 ## URL
 
-This URL provides access to our web service, allowing digital signage to show live forecast images for a selected zone. By passing the relevant zone, the service dynamically displays the corresponding images and up-to-date forecast data without requiring a separate application or integration.
+This URL provides access to our web service, allowing digital signage to show live forecast images for a selected zone. By passing the relevant zone, the service dynamically displays the corresponding images and up-to-date forecast data without requiring a separate application or integration. 
 
 <code>https://airtext-jcd-display.onrender.com</code>
 
