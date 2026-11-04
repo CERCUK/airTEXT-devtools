@@ -21,7 +21,7 @@ This allows screens to present relevant, actionable health information when it i
 
 ## URL
 
-**Base URL:** [airtext-jcd-display.onrender.com](https://airtext-jcd-display.onrender.com/)
+### [airtext-jcd-display.onrender.com](https://airtext-jcd-display.onrender.com/)
 
 The display is configured using URL query parameters, allowing the geographical zone and screen orientation to be specified.
 
@@ -71,8 +71,4 @@ The [playground](display_playground.html) can be used to see the pages, includin
 
 Use the playground to review the appearance of the content before configuring a live digital signage installation.
 
-## Further development
-
-The code is open source, and can be found here 
-[![GitHub Badge](https://img.shields.io/badge/GitHub-View%20Source-blue?logo=github)](https://github.com/CERCUK/airtext-jcd-display)
 
