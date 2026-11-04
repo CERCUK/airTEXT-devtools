@@ -19,7 +19,7 @@ Where all forecast levels remain low, a general information screen is displayed 
 
 This allows screens to present relevant, actionable health information when it is needed, without requiring staff to monitor forecasts or manually change the displayed content.
 
-## URL
+## Web service
 
 This URL provides access to our web service, allowing digital signage to show live forecast images for a selected zone. By passing the relevant zone, the service dynamically displays the corresponding images and up-to-date forecast data without requiring a separate application or integration. 
 
