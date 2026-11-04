@@ -19,7 +19,13 @@ Where all forecast levels remain low, a general information screen is displayed 
 
 This allows screens to present relevant, actionable health information when it is needed, without requiring staff to monitor forecasts or manually change the displayed content.
 
+## URL
+
+<code>https://airtext-jcd-display.onrender.com</code>
+
 The display is configured using URL query parameters, allowing the geographical zone and screen orientation to be specified.
+
+## Query parameters
 
 ### Zone
 
