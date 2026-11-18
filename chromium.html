@@ -80,8 +80,8 @@
   
 
   <!-- MAIN CONTENT AREA -->
-  <main class="flex-1 overflow-y-auto bg-mist-50 p-4 sm:p-6 lg:p-8">
-    <div class="max-w-7xl mx-auto">
+  <main class="flex-1 bg-mist-50 p-4 sm:p-6 lg:p-8">
+    <div >
 
         
         <!-- Controls Toolbar Card -->
@@ -181,7 +181,7 @@
                 <i class="fa-solid fa-tv text-slate-400 mr-1"></i> Screen image
               </label>
               <select id="variant-select" onchange="updateIframeUrl()" class="w-full bg-mist-950 border border-slate-700 text-blue-800 text-xs ed-lg p-2.5 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none">
-                <option value="" selected>Live (based on the current forecast levels)</option>
+                <option value="">Live (based on the current forecast levels)</option>
                 <option value="moderatePollutionToday">Moderate pollution today</option>
                 <option value="highPollutionToday">High pollution today</option>
 				<option value="veryHighPollutionToday">Very high pollution today</option>
@@ -191,7 +191,7 @@
                 <option value="highPollenToday">High pollen today</option>
 				<option value="veryHighPollenToday">Very high pollen today</option>
 				<option value="normal:subscription-actionable">Static screens (actionable)</option>
-				<option value="normal:subscription-reflexive">Static screens (reflexive)</option>
+				<option value="normal:subscription-reflexive" selected>Static screens (reflexive)</option>
 				<option value="normal:educational">Static screens (educational)</option>
               </select>
             </div>
@@ -232,7 +232,7 @@
           </div>
 <button onclick="showCreative()">Show creative</button>
           <!-- CANVAS / IFRAME WRAPPER -->
-          <div id="viewport-stage" class="viewport-container relative bg-black shadow-2xl rounded-lg border-2 border-slate-700 overflow-hidden" style="display:none;">
+          <div id="viewport-stage" class="viewport-containe3 relative bg-black shadow-2xl rounded-lg border-2 border-slate-700 overflow-hidden" style="display:none;">
             
 
             <!-- Embedded Live Display Frame -->
