@@ -232,7 +232,7 @@
           </div>
 <button onclick="showCreative()">Show creative</button>
           <!-- CANVAS / IFRAME WRAPPER -->
-          <div id="viewport-stage" class="viewport-containe3 relative bg-black shadow-2xl rounded-lg border-2 border-slate-700 overflow-hidden" style="display:none;width:'2000px';height:'1200px'">
+          <div id="viewport-stage" class="viewport-containe3 relative bg-black shadow-2xl rounded-lg border-2 border-slate-700 overflow-hidden" style="visibility: hidden;width:'2000px';height:'1200px'">
             
 
             <!-- Embedded Live Display Frame -->
@@ -257,7 +257,7 @@
   <!-- JavaScript Controller -->
   <script>
     function showCreative() {
-  document.getElementById('viewport-stage').style.display = 'block';
+  document.getElementById('viewport-stage').style.visibility = 'visible';
 }
     // State management
     let isZoomedFit = false;
